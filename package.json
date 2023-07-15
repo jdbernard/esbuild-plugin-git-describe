@@ -1,0 +1,38 @@
+{
+  "name": "esbuild-plugin-git-describe",
+  "version": "1.0.0",
+  "description": "ESBuild pligin to provide git-describe information at build time.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdbernard/esbuild-plugin-git-describe.git"
+  },
+  "keywords": [
+    "esbuild",
+    "version",
+    "git-describe"
+  ],
+  "author": "Jonathan Bernard <jonathan@jdbernard.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdbernard/esbuild-plugin-git-describe/issues"
+  },
+  "homepage": "https://github.com/jdbernard/esbuild-plugin-git-describe#readme",
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.44.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "esbuild": "^0.18.12",
+    "git-describe": "^4.1.1"
+  },
+  "files": [ "dist" ]
+}
